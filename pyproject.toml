@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "100-days-of-code"
+version = "0.1.0"
+description = "The Udemy Course taught by Dr Angela Yu"
+authors = ["Aaron Glynn <glynn@u.northwestern.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
