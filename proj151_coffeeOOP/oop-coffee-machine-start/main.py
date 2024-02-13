@@ -18,11 +18,5 @@ if __name__ == "__main__":
         drink = my_menu.find_drink(order)
         if not drink:
             continue
-        if not my_coffee_maker.is_resource_sufficient(drink):
-            continue
-        if not my_money_machine.make_payment(drink.cost):
-            continue
-        my_coffee_maker.make_coffee(drink)
-
-
-
+        if my_coffee_maker.is_resource_sufficient(drink) and my_money_machine.make_payment(drink.cost):
+            my_coffee_maker.make_coffee(drink)
