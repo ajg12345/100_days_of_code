@@ -26,7 +26,7 @@ input = Entry(width=10)
 
 input.pack()
 
-# other interactive things:
+# other interactive widgets:
 
 
 
